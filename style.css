@@ -1,0 +1,686 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 80px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.h {
+    height: 80px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.h .logo {
+    padding: 20px 0px 20px 5px;
+}
+
+.h .btn {
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    letter-spacing: 0.5px;
+}
+
+.h .btn:hover {
+    filter: invert(15%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
+
+.h .btn:hover .svg2 {
+    transform: rotate(180deg);
+    transition: 0.09s;
+}
+
+.a1 {
+    display: flex;
+    height: 700px;
+}
+
+.a1 .left {
+    width: 55%;
+}
+
+.a1 .left .details {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 100px 0 0 180px;
+}
+
+.details h1 {
+    font-size: 102px;
+    font-family: 'Alegreya', serif;
+    letter-spacing: 4px;
+    line-height: 100px;
+
+}
+
+.details p.small {
+    /* margin-top: 15px; */
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+
+}
+
+.details p.capital {
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.details a {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 375px;
+    height: 60px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    font-size: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.2s ease-in-out;
+}
+
+.details a:hover {
+    background-color: rgb(188, 255, 53);
+    color: black;
+}
+
+.a1 .right-img {
+    overflow: hidden;
+    padding: 40px 0px 0px 81px;
+    width: 45%;
+
+}
+
+.a1 .right-img img {
+    width: 800px;
+}
+
+.a2 {
+    height: 200px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.a2 .box {
+    display: flex;
+    width: 360px;
+    height: 100px;
+    background-color: aliceblue;
+    gap: 20px;
+    padding: 20px;
+}
+
+.a2 .box .img {
+    width: 120px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-15px);
+}
+
+.a2 .txt {
+    line-height: 30px;
+}
+
+.a2 .txt p.bold {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.a2 .txt p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.a3 {
+    height: 500px;
+    display: flex;
+
+}
+
+.a3 .left-bar {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-bar img {
+    padding-left: 160px;
+}
+
+.a3 .right-bar {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.a3 .right-bar .boxx {
+    width: 435px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.a3 .right-bar .boxx h2 {
+    font-family: 'Alegreya', serif;
+    font-size: 55px;
+    line-height: 60px;
+
+}
+
+.a3 .right-bar .boxx p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+}
+
+.a3 .right-bar .boxx button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 225px;
+    height: 60px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    font-size: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.a3 .right-bar .boxx button:hover {
+    background-color: rgb(188, 255, 53);
+    color: black;
+
+}
+
+.a4 {
+    height: 500px;
+    display: flex;
+}
+
+.a4 .left-bar {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.left-bar .boxxx {
+    padding-right: 40px;
+    width: 435px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: right;
+}
+
+.left-bar .boxxx h2 {
+    font-family: 'Alegreya', serif;
+    font-size: 55px;
+    line-height: 60px;
+}
+
+.left-bar .boxxx p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+
+}
+
+.a4 .right-bar {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.a4 .right-bar .boxx {
+    width: 435px;
+}
+
+.a4 .right-bar .boxx img {
+    padding-left: 90px;
+}
+
+.extras {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.extras a {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: green;
+    position: relative;
+    padding: 2px 0;
+    overflow: hidden;
+    width: 111px;
+}
+
+.extras a::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 111px;
+    height: 2px;
+    background-color: green;
+}
+
+.extras a::before {
+    position: absolute;
+    left: -111px;
+    bottom: 0;
+    content: "";
+    width: 111px;
+    height: 2px;
+    background-color: green;
+}
+
+.extras a:hover {
+    color: black;
+}
+
+.extras a:hover::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 111px;
+    height: 2px;
+    background-color: rgb(188, 255, 53);
+    transform: translateX(111px);
+    transition: 0.3s ease-in 0.01s;
+}
+
+.extras a:hover::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 111px;
+    height: 2px;
+    background-color: rgb(188, 255, 53);
+    transform: translateX(0px);
+    transition: 0.3s ease-in 0.3s;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icons img {
+    cursor: pointer;
+}
+
+.extra-btn {
+    margin-top: 20px;
+}
+
+.a5 {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.a5 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    gap: 20px;
+}
+
+.a5 div h3 {
+    font-family: 'Alegreya', serif;
+    font-size: 38px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.a5 div p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+    text-align: center;
+}
+
+.a6 {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a6 a {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: green;
+    position: relative;
+    padding: 2px 0;
+    overflow: hidden;
+    width: 187px;
+}
+
+.a6 a::before {
+    position: absolute;
+    left: -187px;
+    bottom: 0;
+    content: "";
+    width: 187px;
+    height: 2px;
+    background-color: green;
+}
+
+.a6 a::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 187px;
+    height: 2px;
+    background-color: green;
+}
+
+.a6 a:hover {
+    color: black;
+}
+
+.a6 a:hover::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 111px;
+    height: 2px;
+    background-color: rgb(188, 255, 53);
+    transform: translateX(187px);
+    transition: 0.3s ease-in 0.01s;
+}
+
+.a6 a:hover::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 187px;
+    height: 2px;
+    background-color: rgb(188, 255, 53);
+    transform: translateX(0px);
+    transition: 0.3s ease-in 0.3s;
+}
+
+.a7 {
+    margin: 50px 0 0 0;
+    padding: 50px 0;
+    background-color: #dae8e7;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.a7 h2 {
+    font-family: 'Alegreya', serif;
+    font-size: 55px;
+}
+
+.a7 a {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: green;
+    position: relative;
+    padding: 2px 0;
+    overflow: hidden;
+    width: 325px;
+}
+
+.a7 a::before {
+    position: absolute;
+    left: -325px;
+    bottom: 0;
+    content: "";
+    width: 325px;
+    height: 2px;
+    background-color: green;
+}
+
+.a7 a::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 325px;
+    height: 2px;
+    background-color: green;
+}
+
+.a7 a:hover {
+    color: black;
+}
+
+.a7 a:hover::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 325px;
+    height: 2px;
+    background-color: rgb(188, 255, 53);
+    transform: translateX(325px);
+    transition: 0.3s ease-in 0.01s;
+}
+
+.a7 a:hover::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 325px;
+    height: 2px;
+    background-color: rgb(188, 255, 53);
+    transform: translateX(0px);
+    transition: 0.3s ease-in 0.3s;
+}
+
+.a8 {
+    height: 300px;
+    background-color: #f9f8f2;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.a8 img {
+    width: 160px;
+}
+
+.a9 {
+    padding: 90px;
+}
+
+.a9 .c {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.a9 .c .l {
+    border-right: 1px solid rgb(94, 94, 94);
+    padding: 0px 160px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 30px;
+}
+
+.a9 .c .l h3 {
+    font-family: 'Alegreya', serif;
+    font-size: 38px;
+    text-align: center;
+    line-height: 40px;
+    text-align: left;
+}
+
+.a9 .c .r h3 {
+    font-family: 'Alegreya', serif;
+    font-size: 38px;
+    text-align: center;
+    text-align: left;
+    line-height: 40px;
+}
+
+.a9 .c .l p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+}
+
+.a9 .c .r p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+}
+
+.a9 .c .l button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 225px;
+    height: 60px;
+    color: green;
+    text-decoration: none;
+    outline: none;
+    border: 2px solid green;
+    border-radius: 40px;
+    font-size: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.a9 .c .r {
+    padding: 0px 160px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 30px;
+}
+
+.a9 .c .l button:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 225px;
+    height: 60px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    font-size: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.2s ease-in-out;
+}
+
+.a9 .c .r button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 225px;
+    height: 60px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    font-size: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.a9 .c .r button:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 225px;
+    height: 60px;
+    background-color: rgb(188, 255, 53);
+    color: black;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    font-size: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.2s ease-in-out;
+}
